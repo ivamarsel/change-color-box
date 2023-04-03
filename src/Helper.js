@@ -1,6 +1,7 @@
 function choice(arr) {
     let randomColor = Math.floor(Math.random() * arr.length);
     return arr[randomColor];
+    //it returns a [random] element from the arr
 }
 
 
