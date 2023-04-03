@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/change-color-box/static/css/main.14bb4be1.css",
-    "main.js": "/change-color-box/static/js/main.31b79ebb.js",
+    "main.css": "/change-color-box/static/css/main.76a45b93.css",
+    "main.js": "/change-color-box/static/js/main.8a5c5e14.js",
     "static/js/787.0beff0f4.chunk.js": "/change-color-box/static/js/787.0beff0f4.chunk.js",
     "index.html": "/change-color-box/index.html",
-    "main.14bb4be1.css.map": "/change-color-box/static/css/main.14bb4be1.css.map",
-    "main.31b79ebb.js.map": "/change-color-box/static/js/main.31b79ebb.js.map",
+    "main.76a45b93.css.map": "/change-color-box/static/css/main.76a45b93.css.map",
+    "main.8a5c5e14.js.map": "/change-color-box/static/js/main.8a5c5e14.js.map",
     "787.0beff0f4.chunk.js.map": "/change-color-box/static/js/787.0beff0f4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.14bb4be1.css",
-    "static/js/main.31b79ebb.js"
+    "static/css/main.76a45b93.css",
+    "static/js/main.8a5c5e14.js"
   ]
 }
