@@ -1,14 +1,16 @@
 import React, { Component } from 'react'
 import Box from './Box';
 import './BoxContainer.css';
+import { rgbColorPicker } from './Helper';
 
 class BoxContainer extends Component {
     static defaultProps = {
         numBoxes: 18,
-        allColors: ['purple', 'magenta', 'violet', 'pink']
+        allColors: rgbColorPicker(18)
+
     }
     render() {
-        const boxes = Array.from({ length: this.props.Numboxes }).map(
+        const boxes = Array.from({ length: this.props.numBoxes }).map(
             () => <Box colors={this.props.allColors} />)
         return (
             <div className='BoxContainer'>
