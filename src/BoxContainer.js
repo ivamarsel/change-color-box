@@ -12,6 +12,10 @@ class BoxContainer extends Component {
     render() {
         const boxes = Array.from({ length: this.props.numBoxes }).map(
             () => <Box colors={this.props.allColors} />)
+        // make an array with the length of numBoxes,
+        //go over it and on each place of these 18 
+        //place a Box component
+        //this.props.allColors=each box will have access to the 18 random colors
         return (
             <div className='BoxContainer'>
                 {boxes}

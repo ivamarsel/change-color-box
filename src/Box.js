@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './Box.css';
-import { choice, } from './Helper';
+import { choice } from './Helper';
 
 class Box extends Component {
 
     constructor(props) {
         super(props);
-        this.state = { color: choice(this.props.colors) }
+        this.state = { color: choice(this.props.colors) }//choice from the array of all 18 colors allColors
         this.handleClick = this.handleClick.bind(this);
     }
 
